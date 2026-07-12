@@ -56,7 +56,6 @@ Unlike the conventional distance relay — which failed to trip correctly above 
 - SVM underperforms specifically on that same LLL/LLLG pair (43–44% F1) while matching tree-based models elsewhere — its smooth RBF decision boundary is less suited to this particular overlapping-class distinction.
 - Fault-type classification is far more robust to fault resistance than location estimation (7-point accuracy drop vs. nearly tripled location error, low → high resistance).
 
-Full methodology, all code, and a complete discussion of results are in [`docs/project_report.pdf`](docs/project_report.pdf).
 
 ## Repository Structure
 
