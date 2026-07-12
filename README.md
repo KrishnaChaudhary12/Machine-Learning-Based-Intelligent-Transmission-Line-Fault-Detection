@@ -5,7 +5,7 @@ Machine learning system for detecting, classifying, and locating faults on a hig
 
 ## Motivation
 
-Conventional distance relays estimate fault location using apparent impedance (Z = V/I) at the relay. This works well for low-resistance faults, but accuracy degrades sharply as fault resistance increases — in a companion project ([Distance Relay vs. Overcurrent Relay Protection Schemes](#)), a conventional distance relay's zone classification **failed outright above ~50 Ω fault resistance** due to zero-sequence impedance inflation.
+Conventional distance relays estimate fault location using apparent impedance (Z = V/I) at the relay. This works well for low-resistance faults, but accuracy degrades sharply as fault resistance increases — in a companion project ([Transmission-Line-Relay-Protection](#)), a conventional distance relay's zone classification **failed outright above ~50 Ω fault resistance** due to zero-sequence impedance inflation.
 
 This project asks: can a machine learning model, trained on the same underlying electrical signals, detect and locate faults more robustly across a wider range of fault resistances?
 
